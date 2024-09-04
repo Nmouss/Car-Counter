@@ -14,7 +14,7 @@ from ultralytics import YOLO, solutions
 model = YOLO("yolov8n.pt")
 
 # Open the video file
-cap = cv2.VideoCapture("/Users/nabilmouss/Desktop/ VEHICLE DETECTION/Test Video/Videoo.mp4")
+cap = cv2.VideoCapture("/PATH/TO/YOUR/DIRECTORY/VIDEO.mp4")
 assert cap.isOpened(), "Error reading video file"
 
 # Get video properties: width, height, and frames per second (fps)
