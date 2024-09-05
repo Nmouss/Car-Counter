@@ -5,7 +5,7 @@ from ultralytics import YOLO
 from object_counter import ObjectCounter
 
 model = YOLO("yolov8n.pt")
-cap = cv2.VideoCapture("/Users/nabilmouss/Desktop/ VEHICLE DETECTION/Test Video/videoo.mp4")
+cap = cv2.VideoCapture("/Path/to/your/directory/.mp4")
 assert cap.isOpened(), "Error reading video file"
 w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FRAME_HEIGHT, cv2.CAP_PROP_FPS))
 
