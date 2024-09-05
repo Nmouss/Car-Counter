@@ -12,9 +12,6 @@ w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FR
 line_points = [(20, 400), (1080, 400)]  # line or region points
 classes_to_count = [2, 3, 5, 7]  # person and car classes for count
 
-# Video writer
-# video_writer = cv2.VideoWriter("object_counting_output.avi", cv2.VideoWriter_fourcc(*"mp4v"), fps, (w, h))
-
 # Init Object Counter
 counter = ObjectCounter(
     view_img=True,
@@ -42,8 +39,8 @@ while cap.isOpened():
     print(dictonary, counter.count_ids)
 
     im0 = counter.start_counting(im0, tracks)
-    # video_writer.write(im0)
+
 print(dictonary, len(dictonary), len(counter.count_ids))
 cap.release()
-# video_writer.release()
+
 cv2.destroyAllWindows()
