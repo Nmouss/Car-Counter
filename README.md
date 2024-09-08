@@ -19,6 +19,7 @@ This project is still under development. A few things that I want to accomplish:
 - Better optimization! In order for me to track the counting and speed I am actually using two videos (Im hiding one) which is using twice the processing power. I think my solution is multi-threading rather than having two objects.
 - I want to see if I can add my database to the cloud for safe storage rather than my disk.
 - I want to see if I can further customize my models accuracy by introducing some of my own dataset of cars in my area. This will be time consuming as I will have to annotate every picture like I did for my time-management project but if I have the time I will.
+- Lastly, I want to fix the documentation on the main script.
 
 # HELPFUL SOURCES
 https://encord.com/blog/yolo-object-detection-guide/
