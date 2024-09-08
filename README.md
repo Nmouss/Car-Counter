@@ -3,7 +3,8 @@
 As the name suggests this is an algorithm that I compiled by using open source code by ultralytics YoloV8 detection algorithm. I combined the estimated speed and car counting classes to create an algorithm that detects cars, their classification (car, truck, motorcycle, etc.), speed estimation (dependent heavily on GPU capabilities), and the time when the car was counted. I compiled all the data on an SQLite database for easy analysis using SQL.
 
 
-https://github.com/user-attachments/assets/d4298c89-d2f9-4423-8b45-34abfd948aac
+![vehicle tracking](https://github.com/user-attachments/assets/78a4dc35-7b2e-412c-869e-cc781091f692)
+
 
 
 ## WHAT I LEARNED
