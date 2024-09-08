@@ -15,7 +15,7 @@ Originally I wanted to use mediapipe to detect/ count cars however when I was co
 
 
 # NOTES
-This project is still under development. A few things that I want to accomplish. 
+This project is still under development. A few things that I want to accomplish:
 - Better optimization! In order for me to track the counting and speed I am actually using two videos (Im hiding one) which is using twice the processing power. I think my solution is multi-threading rather than having two objects.
 - I want to see if I can add my database to the cloud for safe storage rather than my disk.
 - I want to see if I can further customize my models accuracy by introducing some of my own dataset of cars in my area. This will be time consuming as I will have to annotate every picture like I did for my time-management project but if I have the time I will.
