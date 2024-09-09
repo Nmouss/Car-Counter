@@ -12,7 +12,7 @@ w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FR
 
 print("width of video: ", w, "height of video: ", h)
 
-line_points = [(20, 400), (1080, 400)]  # line / region points (2points = line ofc)
+line_points = [(20, 400), (1080, 400)]  # line / region points (2points = line ofc), modify this for your detection needs
 classes_to_count = [2, 3, 5, 7]  # car, truck, motorcycle, bus; classes to count
 
 # Initializes the database and connects to it
