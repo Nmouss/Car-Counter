@@ -6,7 +6,7 @@ from speed_estimation import SpeedEstimator
 import sqlite3
 
 model = YOLO("yolov8n.pt")
-cap = cv2.VideoCapture("/Users/nabilmouss/Desktop/ VEHICLE DETECTION/Test Video/videoo.mp4")
+cap = cv2.VideoCapture("/PATH/TO/YOUR/DIRECTORY/VIDEO.mp4")
 assert cap.isOpened(), "Error reading video file"
 w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FRAME_HEIGHT, cv2.CAP_PROP_FPS))
 
