@@ -36,7 +36,7 @@ cursor.execute('''
 # Video writer
 # video_writer = cv2.VideoWriter("object_counting_output.avi", cv2.VideoWriter_fourcc(*"mp4v"), fps, (w, h)) # If I want to save the video
 
-# Init Object Counter
+# counter object
 counter = ObjectCounter(
     view_img=True,
     reg_pts=line_points,
